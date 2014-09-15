@@ -6,3 +6,6 @@ I first set up the bare minimum requirements to make all the tests pass.
 After this, I refactored the code (our TA Kayla helped me with this) so that it returned the original input if it was nondivisible. 
 For all other returns, I set up an empty string which would concatenate "Fizz" and "Buzz" sequentially, 
 thus getting "FizzBuzz" without any separate logic. I then used an explicit return. 
+
+Note: the "development" branch was accidentally made before any master branch. Thus, the "master" branch here is 
+actually a later-made branch. 
