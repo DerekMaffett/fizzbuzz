@@ -1,6 +1,5 @@
 require 'fizzbuzzsivv'
 
-
 describe Fizzbuzzsivv do
   before do
     @test_path = 'spec/test_values.txt'
