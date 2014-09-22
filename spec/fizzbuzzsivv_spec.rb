@@ -33,4 +33,8 @@ describe Fizzbuzzsivv do
   it 'should return strings in order of the rules file' do
     expect(Fizzbuzzsivv.analyze(35, @test_path)).not_to eq 'sivvbuzz'
   end
+
+  it 'should return input if not a multiple of any of the requested numbers' do
+    expect(Fizzbuzzsivv.analyze(17, @test_path)).to eq 17
+  end
 end

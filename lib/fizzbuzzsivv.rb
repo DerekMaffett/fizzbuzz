@@ -6,7 +6,7 @@ class Fizzbuzzsivv
     @fizzbuzz_values.each do |k, v|
       @result += v if num % k.to_i == 0
     end
-    @result
+    @result.empty? ? num : @result
   end
 
   private
