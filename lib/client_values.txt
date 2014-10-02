@@ -1,0 +1,5 @@
+3, fizz
+5, buzz
+7, sivv
+11, wubb
+19, zipp

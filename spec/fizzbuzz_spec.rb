@@ -1,4 +1,4 @@
-require_relative '../fizzbuzz.rb'
+require 'fizzbuzz'
 
 describe Fizzbuzz do
   fizz_values = [3, 6, 9, 12, 18, 21, 24, 333]
