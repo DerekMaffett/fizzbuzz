@@ -1,6 +1,6 @@
-3, fizz
-5, buzz
-7, sivv
-11, wubb
-13, grrr
-19, zipp
+3,fizz
+5,buzz
+7,sivv
+11,wubb
+13,grrr
+19,zipp

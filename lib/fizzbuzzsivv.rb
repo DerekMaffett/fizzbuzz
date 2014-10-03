@@ -1,13 +1,8 @@
+require 'csv'
+
 class Fizzbuzzsivv
   def initialize(path)
-    File.open(path) do |file|
-      lines = file.readlines
-      filtered_lines = lines.map do |line|
-        line.gsub!("\n", '')
-        line.split(', ')
-      end
-      @fizzbuzz_values = Hash[filtered_lines]
-    end
+    @fizzbuzz_values = CSV.read(path).to_h
   end
 
   def analyze(num)
